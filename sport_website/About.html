@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Us </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            display: grid;
+            background-color: rgb(37, 129, 40);
+            align-content: center;
+            min-height: 100vh;
+        }
+
+        section {
+            display: grid;
+            min-height: 70vh;
+            width: 90vw;
+            margin: 0 auto;
+            box-shadow: #fff;
+            border-radius: 12px
+        }
+
+        .content {
+            background-color:  rgb(37, 129, 40);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0 12px 12px 0;
+            color: #fff;
+        }
+
+        .content h2 {
+            text-transform: uppercase;
+            font-size: 36px;
+            letter-spacing: 6px;
+            opacity: 0.9;
+        }
+
+        .content span {
+            height: 0.5px;
+            width: 80px;
+            background: #777;
+            margin: 30px 0;
+        }
+     
+        .content p {
+            padding: 10px;
+            font-weight: 300;
+            opacity: 0.7;
+            width: 60%;
+            text-align:justify; 
+            margin: auto;
+            line-height: 1.5;
+            color: #ffffff
+        }
+
+
+
+        /*****************/
+
+        @media(max-width: 900px) {
+            section {
+                grid-template-columns: 1fr;
+                width: 100%;
+                border-radius: none;
+            }
+
+
+            .content {
+                height: 100vh;
+                border-radius: none;
+            }
+
+            .content h2 {
+                font-size: 20px;
+                margin-top: 50px;
+            }
+
+            .content span {
+                margin: 20px 0;
+            }
+
+            .content p {
+                font-size: 14px;
+            }
+
+            .links li a {
+                font-size: 14px;
+            }
+
+            .links {
+                margin: 5px 0;
+            }
+
+            .links li {
+                padding: 6px 10px;
+            }
+
+        }
+
+        .credit {
+            text-align: center;
+            color: #000;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .credit a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+
+        <div class="content">
+            <h2>About</h2>
+            <p>Sports have rich and diverse histories, each with its own unique evolution and cultural significance. Here's a brief overview of the histories of soccer, netball, cricket, baseball, tennis, and golf:
+
+Soccer (Football):
+
+Soccer's origins trace back centuries ago, with variations of the game being played in different cultures. The modern version began to take shape in England during the 19th century with standardized rules emerging.
+The formation of the Football Association (FA) in 1863 and the establishment of uniform rules helped formalize the game. It quickly gained popularity and spread worldwide, becoming the most widely followed sport globally.
+<br>Netball:
+
+Netball originated from basketball and was developed in England during the late 19th century as a women's variation of the sport. It was initially called "women's basketball" and evolved into netball with modified rules to suit women's participation.
+The game's rules were codified in the early 20th century, and netball associations were formed globally. It's especially popular in Commonwealth countries.
+<br>Cricket:
+
+Cricket has a long history, dating back to the 16th century in England. It evolved from simpler bat-and-ball games played even earlier.
+The first official cricket match took place in the 18th century, and the Marylebone Cricket Club (MCC) established standardized rules. It spread throughout the British Empire and gained popularity in countries like India, Australia, and the West Indies.
+<br>Baseball:
+
+Baseball's origins are somewhat debated, but it gained popularity in the United States during the 19th century. It evolved from older bat-and-ball games like rounders and town ball.
+The formation of the Knickerbocker Base Ball Club in the mid-19th century led to the codification of rules, and the game continued to grow, becoming America's national pastime.
+<br>Tennis:
+
+Tennis has ancient origins, with early versions played by various civilizations. The modern form began to take shape in France during the 16th century.
+The rules were standardized in the 19th century, and the All England Croquet and Lawn Tennis Club (now known as Wimbledon) hosted the first Wimbledon Championship in 1877. Tennis became a popular sport worldwide, both professionally and recreationally.
+<br>Golf:
+
+Golf has roots tracing back to Scotland in the 15th century, although similar stick-and-ball games were played in various forms across different cultures.
+The first written rules of golf were established in the 18th century by the Gentlemen Golfers of Leith. The sport's popularity grew globally, and today, it's played on courses worldwide.
+These sports have evolved significantly over time, gaining immense popularity across various regions and cultures. They've become integral parts of many societies, influencing not just sports culture but also social interactions, entertainment, and even economies.
+            </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
