@@ -1,5 +1,3 @@
-# Sports_website
+#safeGuard 
 
-This website let students register their eletricity appliances before bringing them to their domatries and residence 
-This will help those students that may lose their hardcopies of their items.
-students will just have to login to the website to register items with the help of the securities to comfirm that they really have the items.
+this website helps students to register they items when entering to the university premises. it help them so that they wouldn't worry about losing the hardycopy of the evidence that the item belong to them.
