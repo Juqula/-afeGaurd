@@ -11,7 +11,11 @@
 /* Navbar styles */
 #navbar{
   background: whitesmoke/*linear-gradient(135deg, #71b7e6, #2f2e30);*/
+
   
+}
+.fixed-element{
+  position:fixed;
 }
 
 #logo{
@@ -36,13 +40,13 @@
 }
 
 #navbar .navbar-nav .nav-link:hover{
-  background-color: orange;
+  background-color: rgb(192, 187, 177);
   color:white;
   border-radius: 5px;
 }
 
 .navbar-toggler span{
-  color:#ffa500;
+  color:#dfdbd4;
 }
 
 #navbar form button{
@@ -51,7 +55,7 @@
 }
 
 .dropdown-toggle{
-  background-color: #ffa500;
+  background-color: #c9c3b9;
 }
 .d-flex > * {
   margin-right: 50px;
@@ -61,6 +65,12 @@
   max-width: 400px;
   width: 100%;
   margin-right: auto;
+  padding:50px;
+}
+/*#searchBarWrap{
+  display:flex;
+  justify-content: center;
+
 }
 .form-input {
   display: flex;
@@ -92,7 +102,8 @@
   outline: none;
   border-radius: 0 50px 50px 0;
   cursor: pointer;
-}
+}*/
+
 /*navbar ends here*/
 
 /* Home section styles */
@@ -104,6 +115,12 @@
   background-repeat: no-repeat;
   height: calc(100vh - 70px);
   background-size: cover;
+}
+.rounded-image{
+  width:500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 /* Style scrolling heading text */
 /* Add CSS for the scrolling text animation */
