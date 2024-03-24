@@ -117,10 +117,10 @@
   background-size: cover;
 }
 .rounded-image{
-  width:700px;
-  height: 500px;
-  border-radius: 100%;
-  overflow: hidden;
+  width:600px;
+  height: 600px;
+  border-radius: 50%;
+  overflow:hidden;
 }
 /* Style scrolling heading text */
 /* Add CSS for the scrolling text animation */
