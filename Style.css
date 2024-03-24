@@ -109,19 +109,34 @@
 /* Home section styles */
 .home{
   width:100%;
-  height:90vh;
+  height:100vh;
   background: linear-gradient(135deg, #71b7e6, #2f2e30);
   /*background-image: url('./background/sport.jpg');*/
   background-repeat: no-repeat;
   height: calc(100vh - 70px);
   background-size: cover;
+  align-content: space-evenly;
+  text-align: center;
 }
+.heading-1{
+  position: relative;
+  text-align: center;
+  padding:0px 50px;
+}
+
+
 .rounded-image{
-  width:600px;
-  height: 600px;
+  width:500px;
+  height: 500px;
   border-radius: 50%;
   overflow:hidden;
+  margin:block;
+  margin-right: auto;
+  margin-left: auto;
+  
+  
 }
+
 /* Style scrolling heading text */
 /* Add CSS for the scrolling text animation */
 .scrolling-text {
