@@ -7,6 +7,23 @@
   list-style-type: none;
   scroll-behavior: smooth;
 }
+.rounded-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.rounded-image img {
+  position: absolute;
+  top: 0;
+  width: 50%; /* Adjust as needed */
+  height: auto;
+}
+.rounded-image img:nth-child(1) {
+  left: 0;
+}
+.rounded-image img:nth-child(2) {
+  right: 0;
+}
 
 /* Navbar styles */
 #navbar{
