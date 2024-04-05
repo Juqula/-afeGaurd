@@ -15,7 +15,7 @@
 .rounded-image img {
   position: absolute;
   top: 0;
-  width: 50%; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
   height: auto;
 }
 .rounded-image img:nth-child(1) {
